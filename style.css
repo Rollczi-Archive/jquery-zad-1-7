@@ -1,0 +1,18 @@
+p {
+    width: 50%;
+    background-color: #ff006a;
+    border: 1px solid black;
+}
+
+.start {
+    animation: animation 2s forwards;
+}
+
+@keyframes animation {
+    100% {
+        width: 90%;
+        background-color: #bb00ff;
+        border: 5px solid black;
+        font-size: 2em;
+    }
+}
